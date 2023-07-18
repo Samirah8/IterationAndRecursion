@@ -1,5 +1,7 @@
 # Samirah Ali, Course: 261, Lab Title: IterationAndRecursion
 
+import sys
+
 def factorial_iterative(num):
     fact = 1
     for number in range(2, num + 1):
@@ -28,3 +30,6 @@ def main():
     print("25!", factorial_recursive(25))
     print("50!", factorial_recursive(50))
     print("100!", factorial_recursive(100))
+
+if __name__ == "__main__":
+     sys.exit(main())
